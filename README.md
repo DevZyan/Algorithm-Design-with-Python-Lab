@@ -8,3 +8,5 @@ This repository contains implementations as part of the **Algorithm Design Lab**
        - two elements were shifted by first shifting the max element to its place then searching the array till max element and then placing the min element
 2. **Optimization of Quick Sort**
    - taking a pivot which is median of three random elements chosen from the array, this avoids the worst case time complexity
+   - for smaller values of n (size of array), insertion sort was used.
+   - the size of n was mathematically and manually calculated.
