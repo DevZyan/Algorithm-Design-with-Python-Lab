@@ -1,15 +1,24 @@
 # **Algorithm-Design-with-Python-Lab**
-This repository contains implementations as part of the **Algorithm Design Lab**.
 
-## **Labs**
-1. **Optimization of Insertion Sort**
-   - using binary search instead of linear search
-   - shifting two elements instead of one
-       - two elements were shifted by first shifting the max element to its place then searching the array till max element and then placing the min element
-2. **Optimization of Quick Sort**
-   - taking a pivot which is median of three random elements chosen from the array, this avoids the worst case time complexity
-   - for smaller values of n (size of array), insertion sort was used.
-   - the size of n was mathematically and manually calculated.
+This repository contains implementations developed as part of the **Algorithm Design Lab**.  
+
+## **Labs**  
+
+### 1. Optimization of Insertion Sort  
+- Used **binary search** instead of linear search to find the insertion point.  
+- Optimized shifting by handling **two elements at a time**:  
+  - First shift the maximum element to its correct position.  
+  - Then search the subarray (till max element) to place the minimum element.  
+
+---
+
+### 2. Optimization of Quick Sort  
+- Chose pivot as the **median of three random elements** from the array → reduces chance of worst-case `O(n²)`.  
+- For small array sizes `n`, the algorithm switches to **Insertion Sort** for efficiency.  
+- The threshold value of `n` was **calculated mathematically and verified manually**.  
+
+---
+
 ### 3. Heap-based Merge of *m* Sorted Pieces  
 - Implemented a **min-heap** to merge `m` sorted subarrays efficiently.  
 - Each subarray contributes its smallest unmerged element into the heap.  
