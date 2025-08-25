@@ -38,9 +38,9 @@ This repository contains implementations developed as part of the **Algorithm De
 - Constructed a **Binary Search Tree** from input data.  
 - Defined **Equity of a node** as:  
 
-  \[
+  $$
   \text{Equity} = 1 - \Bigg| \frac{\text{avg}(L)}{\max(L)} - \frac{\text{avg}(R)}{\max(R)} \Bigg|
-  \]
+  $$
 
   where `L` and `R` are the left and right subtrees.  
 - Computed equity for each non-leaf node and identified nodes with **maximum equity**.  
